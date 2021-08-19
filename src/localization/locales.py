@@ -255,7 +255,109 @@ Locales = {
     "id-ID": {},
     "it-IT": {},
     "ja-JP": {},
-    "ko-KR": {},
+    "ko-KR": {
+        "author": "@KripC#4389",
+         "config": {
+            "version": "버전",
+            "region": "지역",
+            "client_id": "클라이언트_아이디",
+            "presence_refresh_interval": "presence_refresh_interval",
+            "locale": "로케일",
+            "presences": "presences",
+            "menu": "메뉴",
+            "show_rank_in_comp_lobby": "show_rank_in_comp_lobby",
+            "modes": "모드",
+            "all": "모두",
+            "small_image": "small_image",
+            "large_image": "large_image",
+            "range": "range",
+            "show_rank_in_range": "show_rank_in_range",
+            "startup": "시동",
+            "game_launch_timeout": "game_launch_timeout",
+            "presence_timeout": "presence_timeout",
+            "show_github_link": "show_github_link",
+            "auto_launch_skincli": "auto_launch_skincli",
+            "agent": "요원",
+            "rank": "랭크",
+            "map": "맵",
+        },
+        "prints": {
+            "config_modification": {
+                "select_option": "select a configuration option",
+                "config_saved": "config saved! restart the program for changes to take effect.",
+                "set_prompt": "set value for"
+            },
+            "startup": {
+                "wait_for_rpc": "waiting for rpc client",
+                "discord_not_detected": "discord not detected! starting game without presence...",
+                "starting_valorant": "starting VALORANT",
+                "startup_successful": "program startup successful, hiding window in 5 seconds",
+                "waiting_for_presence": "waiting for presence...",
+                "waiting_for_valorant": "waiting for VALORANT...",
+                "autodetect_region": "attempting to autodetect region",
+                "autodetected_region": "autodetected region:",
+            },
+            "presence": {
+                "presence_running": "presence running!",
+            },
+            "systray": {
+                "hiding_window": "hiding window",
+            },
+            "errors": {
+                "error_message": "프로그램에 오류가 발생했습니다. 이 문제가 지속될 경우 아래 tracback을 사용하여 GitHub에 Issue를 생성하십시오.",
+                "exit": "종료하려면 Enter를 누르십시오...",
+            },
+            "version_checker": {
+                "update_available": "an update is available! download it at",
+                "checker_error": "unable to check for updates!",
+            }
+        },
+        "presences": {
+            "party_states": {
+                "open": "초대 가능",
+                "solo": "Solo",
+                "in_party": "In a Party",
+            },
+            "client_states": {
+                "away": "Away",
+                "menu": "메뉴",
+                "custom_setup": "Custom Setup",
+                "queue": "Queue",
+                "pregame": "Pregame",
+            },
+            "team_names": {
+                "TeamOne": "수비팀",
+                "TeamTwo": "공격팀",
+                "TeamSpectate": "관전자",
+                "TeamOneCoaches": "수비팀 코치",
+                "TeamTwoCoaches": "공격팀 코치",
+            },
+            "modes": {
+                "newmap": "새 맵",
+                "competitive": "경쟁전",
+                "unrated": "일반전",
+                "spikerush": "스파이크 돌격",
+                "deathmatch": "데스매치",
+                "ggteam": "에스컬레이션",
+                "onefa": "복제 모드",
+                "custom": "사용자 설정 게임",
+                "snowball": "눈싸움",
+                "": "사용자 설정 게임",
+            },
+            "pregame": {
+                "selecting": "선택중",
+                "locked": "선택 확정",
+            },
+            "leveling":{
+                "level": "레벨",
+                "ranked_rating": "RR",
+            },
+            "startup": {
+                "loading": "로딩중",
+                "view_github": "GitHub에서 보기",
+            }
+        },
+    },
     "pl-PL": {},
     "pt-BR": {
         "author": "@janinha#6244",
